@@ -1,0 +1,14 @@
+generated: '2026-07-21'
+method: searched
+probe: true
+source: https://rhythmos.io/security-compliance/
+url: https://rhythmos.io/security-compliance/
+certifications:
+- SOC 2
+- GDPR
+evidence:
+- source: https://rhythmos.io/security-compliance/
+  keywords:
+  - soc 2
+  - soc2
+  - gdpr

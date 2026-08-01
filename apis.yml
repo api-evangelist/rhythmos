@@ -1,7 +1,15 @@
 aid: rhythmos
 name: Rhythmos
-description: Rhythmos is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Rhythmos (rhythmos.io) provides modern analytics for managing electric-vehicle
+  charging and grid infrastructure. Its platform coordinates fleet charging needs
+  against utility and wholesale market conditions to lower energy costs and defer
+  costly grid infrastructure investment, serving EV fleet owners, utilities,
+  municipalities, and market aggregators through Fleet, Grid, and Market
+  applications. Rhythmos maintains a SOC 2 Type II report and is GDPR compliant.
+  The company is now part of Electron (electron.net). No public developer API,
+  SDK, or developer portal is published at this time; this profile captures the
+  company's identity, website properties, and security/compliance posture.
 url: https://raw.githubusercontent.com/api-evangelist/rhythmos/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +17,31 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://rhythmos.io/wp-content/uploads/2023/01/rhythmos-logo.png
 tags:
 - Company
+- Energy
+- Electric Vehicles
+- EV Charging
+- Grid
+- Utilities
+- Analytics
+- Sustainability
+- Clean Energy
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +51,30 @@ maintainers:
 common:
 - type: Website
   url: https://rhythmos.io
+- type: Blog
+  url: https://rhythmos.io/blog/
+- type: Support
+  url: https://rhythmos.io/contact-us/
+- type: SignUp
+  url: https://rhythmos.io/get-started/
+- type: PrivacyPolicy
+  url: https://rhythmos.io/privacy-policy/
+- type: TermsOfService
+  url: https://rhythmos.io/terms-and-conditions/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/rhythmosio/
+- type: Compliance
+  url: https://rhythmos.io/security-compliance/
+- type: TrustCenter
+  url: security/rhythmos-trust-center.yml
+- type: Security
+  url: https://rhythmos.io/security-compliance/
+- type: VulnerabilityDisclosure
+  url: security/rhythmos-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/rhythmos-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
